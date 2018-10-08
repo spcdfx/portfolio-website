@@ -1,0 +1,237 @@
+body {
+    background-color: #fff;
+    background-size: cover;
+    width: 100%;
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 700px) {
+    #projectBtn {
+        background-color: #59b0f7;
+        color: #fff;
+        border: none;
+    }
+}
+
+#banner {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+    min-height: 100vh;
+    max-height: 1000vh;
+}
+
+#fullpage {
+    padding: 0px;
+}
+
+#logoicon {
+    width: 75px;
+    height: 75px;
+    justify-content: left;
+}
+
+.nogutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+#logoContainer {
+        padding-top: 5vmin;
+}
+
+#bannerRow {
+    padding-top: 30vmin;
+
+}
+
+#bannerTxt {
+    color: #fff;
+}
+
+#btnResume {
+    padding-top: 5vmin;
+}
+
+#resume {
+    text-decoration: none;
+    padding: 12px 55px;
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    height: auto;
+    transition: padding 300ms ease-in-out, background-color 300ms ease-in-out,color 300ms ease-in-out;
+}
+
+#resume:hover {
+    padding: 12px 75px;
+    background-color: white;
+    color: #59b0f7;
+    border:none;
+}
+
+#arrowRow {
+    padding-top: 20vmin;
+
+}
+
+#aboutRow {
+    padding: 3vmin;
+}
+
+#aboutText {
+    padding-top: 3vmin;
+}
+
+#projectsCont {
+    background-color: #fbfbfb;
+}
+
+#projectRow {
+    padding: 3vmin;
+}
+
+#designsHeader {
+    padding-bottom: 2vmin;
+    text-align: center;
+}
+
+#websitesHeader {
+    padding-bottom: 2vmin;
+    text-align: center;
+}
+
+#iconLinks {
+    padding-bottom: 2vmin;
+    color: #00c6ff;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+#iconLinks:hover {
+    text-decoration: none;
+    color: #2d98f0;
+}
+
+#projectBtn {
+    text-decoration: none;
+    padding: 10px 50px;
+    background: none;
+    color: #00c6ff;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    text-transform: uppercase;
+    border: 2px solid #00c6ff;
+    border: 2px solid -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    border: 2px solid linear-gradient(to right, #0072ff, #00c6ff);
+    border-radius: 100px;
+    height: auto;
+    transition: padding 300ms ease-in-out, background-color 300ms ease-in-out,color 300ms ease-in-out;
+}
+
+#projectBtn:hover {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    color: #fff;
+    border: ;
+}
+
+#projectsCol {
+    padding-bottom: 4vmin;
+}
+
+#contactRow {
+    padding: 3vmin;
+}
+
+#contactBaseRow {
+    padding-bottom: 2vmin;
+}
+
+#contactForm {
+    padding-top: 2vmin;
+}
+
+#submit {
+    text-decoration: none;
+    margin-top: 1vmin;
+    padding: 10px 50px;
+    background: none;
+    color: #00c6ff;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-transform: uppercase;
+    border: 2px solid #00c6ff;
+    border: 2px solid -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    border: 2px solid linear-gradient(to right, #0072ff, #00c6ff);
+    border-radius: 100px;
+    height: auto;
+    transition: padding 300ms ease-in-out, background 300ms ease-in-out,color 300ms ease-in-out;
+}
+
+#submit:hover {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    color: #fff;
+    border: ;
+    cursor: auto;}
+
+#footer {
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+}
+
+#footerCont {
+    padding-top: 8vmin;
+    color: #fff;
+}
+
+#footerLinks {
+    color: #fff;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+}
+
+#footerLinks:hover {
+    color: #e6e6e6;
+}
+
+#myLink {
+color: #fff;
+}
+
+
+#footerBase {
+    padding-bottom: ;
+}
